@@ -5,6 +5,8 @@ body {
 
 }
 
+/* header part  */
+
 header {
     background-color: #161616;
     width: 1200px;
@@ -16,6 +18,35 @@ header {
     margin: 50px auto;
 
 }
+
+/* header animation */
+
+.animate-charcter
+{
+  background-image: linear-gradient(
+    -225deg,
+    #00AB8A 0%,
+    #F26922 29%,
+    #DD2727 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #ffffff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 3s linear infinite;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+
 
 #header-left {
     margin-left: 90px;
@@ -71,6 +102,8 @@ header {
     max-width: 700px;
 }
 
+
+
 /* main styles */
 
 #main {
@@ -79,10 +112,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-
-    /* display: grid;
-    grid-template-columns: 1fr 3fr;
-    column-gap: 20px; */
 }
 
 /* sidebar styles */
@@ -132,6 +161,7 @@ aside div a {
     color: #FFFFFF;
 }
 
+
 /* Match details box */
 
 .upcoming-match {
@@ -154,9 +184,6 @@ aside div a {
     border-radius: 5px;
     width: 275px;
     height: 220px;
-    /* width: 290px;
-    height: 242px; */
-
 }
 
 .flags {
@@ -210,7 +237,6 @@ aside div a {
 .blog-box img {
     max-width: 100%;
 }
-
 
 
 .blog-box p {
@@ -299,9 +325,14 @@ footer i {
 }
 
 
+
+
+
 /* ---------Media Queries------------  */
 
-/* Tablet View  */
+
+
+/* ---------Tablet View----------  */
 
 @media screen and (max-width: 992px) {
 
@@ -324,6 +355,10 @@ footer i {
         margin-top: 30px;
         padding-bottom: 20px;
 
+    }
+
+    .animate-charcter {
+        display: none;
     }
 
     #header-left {
@@ -475,7 +510,9 @@ font-family: 'Poppins', sans-serif;
 }
 
 
-/* Mobile view  */
+
+
+/*------------ Mobile view ------------ */
 
 @media screen and (max-width: 480px) {
 
@@ -502,6 +539,10 @@ font-family: 'Poppins', sans-serif;
         margin-bottom: 20px;
         padding-bottom: 20px;
 
+    }
+
+    .animate-charcter {
+        display: none;
     }
 
     #header-left {
