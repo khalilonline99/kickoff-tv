@@ -62,6 +62,7 @@ header {
 
 #header-image {
     height: 100%;
+    padding-top: 120px;
 }
 
 
@@ -159,7 +160,7 @@ aside div a {
 .flags {
     display: flex;
     margin-top: 0;
-
+    align-items: center;
 }
 
 .flags img {
@@ -199,14 +200,14 @@ footer {
 }
 
 footer div h1 {
-    width: 830px;
+    width: 855px;
     text-align: center;
 }
 
-footer hr {
-    widhth: 1400px;
+/* footer hr {
+    width: 1400px;
     color: #c7c7c7;
-}
+} */
 
 footer li {
     display: inline;
@@ -222,7 +223,14 @@ footer a {
     font-size: 16px;
 }
 
+#social-icon {
+    margin-top: 10px;
+}
 
+
+footer i {
+    padding: 5px;
+}
 
 
 
