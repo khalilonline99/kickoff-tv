@@ -19,9 +19,9 @@ header {
 
 }
 
-/* header animation */
+/* header title animation */
 
-.animate-charcter
+.animate-character
 {
   background-image: linear-gradient(
     -225deg,
@@ -357,9 +357,10 @@ footer i {
 
     }
 
-    .animate-charcter {
-        display: none;
+    .animate-character {
+        -webkit-text-fill-color: #FFFFFF;
     }
+
 
     #header-left {
         margin-left: 50px;
@@ -541,8 +542,8 @@ font-family: 'Poppins', sans-serif;
 
     }
 
-    .animate-charcter {
-        display: none;
+    .animate-character {
+        -webkit-text-fill-color: #FFFFFF;
     }
 
     #header-left {
